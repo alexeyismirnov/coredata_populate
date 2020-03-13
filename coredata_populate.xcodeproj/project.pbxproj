@@ -14,7 +14,93 @@
 		8A636A85240E56FB002734E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A636A84240E56FB002734E6 /* Assets.xcassets */; };
 		8A636A88240E56FB002734E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A636A87240E56FB002734E6 /* Preview Assets.xcassets */; };
 		8A636A8B240E56FB002734E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A636A89240E56FB002734E6 /* LaunchScreen.storyboard */; };
+		8A636A99240E61EB002734E6 /* VocabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A636A98240E61EB002734E6 /* VocabManager.swift */; };
+		8A65B338241A1F13009CB3DE /* HSK6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B332241A1F13009CB3DE /* HSK6.csv */; };
+		8A65B339241A1F13009CB3DE /* HSK6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B332241A1F13009CB3DE /* HSK6.csv */; };
+		8A65B33A241A1F13009CB3DE /* HSK1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B333241A1F13009CB3DE /* HSK1.csv */; };
+		8A65B33B241A1F13009CB3DE /* HSK1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B333241A1F13009CB3DE /* HSK1.csv */; };
+		8A65B33C241A1F13009CB3DE /* HSK4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B334241A1F13009CB3DE /* HSK4.csv */; };
+		8A65B33D241A1F13009CB3DE /* HSK4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B334241A1F13009CB3DE /* HSK4.csv */; };
+		8A65B33E241A1F13009CB3DE /* HSK3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B335241A1F13009CB3DE /* HSK3.csv */; };
+		8A65B33F241A1F13009CB3DE /* HSK3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B335241A1F13009CB3DE /* HSK3.csv */; };
+		8A65B340241A1F13009CB3DE /* HSK2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B336241A1F13009CB3DE /* HSK2.csv */; };
+		8A65B341241A1F13009CB3DE /* HSK2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B336241A1F13009CB3DE /* HSK2.csv */; };
+		8A65B342241A1F13009CB3DE /* HSK5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B337241A1F13009CB3DE /* HSK5.csv */; };
+		8A65B343241A1F13009CB3DE /* HSK5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B337241A1F13009CB3DE /* HSK5.csv */; };
+		8A65B35A241A25CD009CB3DE /* CardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B356241A25CD009CB3DE /* CardEntity+CoreDataClass.swift */; };
+		8A65B35B241A25CD009CB3DE /* CardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B356241A25CD009CB3DE /* CardEntity+CoreDataClass.swift */; };
+		8A65B35C241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B357241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift */; };
+		8A65B35D241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B357241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift */; };
+		8A65B35E241A25CD009CB3DE /* ListEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B358241A25CD009CB3DE /* ListEntity+CoreDataClass.swift */; };
+		8A65B35F241A25CD009CB3DE /* ListEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B358241A25CD009CB3DE /* ListEntity+CoreDataClass.swift */; };
+		8A65B360241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B359241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift */; };
+		8A65B361241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B359241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift */; };
+		8A65B365241A3756009CB3DE /* coredata_populate.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B362241A3755009CB3DE /* coredata_populate.sqlite-wal */; };
+		8A65B366241A3756009CB3DE /* coredata_populate.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B362241A3755009CB3DE /* coredata_populate.sqlite-wal */; };
+		8A65B367241A3756009CB3DE /* coredata_populate.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B363241A3756009CB3DE /* coredata_populate.sqlite */; };
+		8A65B368241A3756009CB3DE /* coredata_populate.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B363241A3756009CB3DE /* coredata_populate.sqlite */; };
+		8A65B369241A3756009CB3DE /* coredata_populate.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B364241A3756009CB3DE /* coredata_populate.sqlite-shm */; };
+		8A65B36A241A3756009CB3DE /* coredata_populate.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B364241A3756009CB3DE /* coredata_populate.sqlite-shm */; };
+		8A97AB522410FAFD00232343 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97AB512410FAFD00232343 /* CoreDataStack.swift */; };
+		8ABF9416241485F900028385 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABF9414241485F900028385 /* Interface.storyboard */; };
+		8ABF9418241485FB00028385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABF9417241485FB00028385 /* Assets.xcassets */; };
+		8ABF941F241485FB00028385 /* iwatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8ABF941E241485FB00028385 /* iwatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8ABF9426241485FB00028385 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF9425241485FB00028385 /* HostingController.swift */; };
+		8ABF9428241485FB00028385 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF9427241485FB00028385 /* ExtensionDelegate.swift */; };
+		8ABF942A241485FC00028385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABF9429241485FC00028385 /* Assets.xcassets */; };
+		8ABF942D241485FC00028385 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABF942C241485FC00028385 /* Preview Assets.xcassets */; };
+		8ABF9431241485FC00028385 /* iwatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8ABF9412241485F900028385 /* iwatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8ABF943A2414E30D00028385 /* VocabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A636A98240E61EB002734E6 /* VocabManager.swift */; };
+		8ABF943B2414E32A00028385 /* coredata_populate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A636A7F240E56F9002734E6 /* coredata_populate.xcdatamodeld */; };
+		8ABF943F2414E40C00028385 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97AB512410FAFD00232343 /* CoreDataStack.swift */; };
+		8ABF94402414E65400028385 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A636A82240E56F9002734E6 /* ContentView.swift */; };
+		8AEA2C2B2417A5D30044EBE8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA2C2A2417A5D30044EBE8 /* ListView.swift */; };
+		8AEA2C2C2417A5D30044EBE8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA2C2A2417A5D30044EBE8 /* ListView.swift */; };
+		8AEA2C2E2417A5E60044EBE8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA2C2D2417A5E60044EBE8 /* CardView.swift */; };
+		8AEA2C2F2417A5E60044EBE8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA2C2D2417A5E60044EBE8 /* CardView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ABF9420241485FB00028385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A636A70240E56F9002734E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ABF941D241485FB00028385;
+			remoteInfo = "iwatch Extension";
+		};
+		8ABF942F241485FC00028385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A636A70240E56F9002734E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ABF9411241485F900028385;
+			remoteInfo = iwatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8ABF9432241485FC00028385 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8ABF9431241485FC00028385 /* iwatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABF9435241485FC00028385 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8ABF941F241485FB00028385 /* iwatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8A636A78240E56F9002734E6 /* coredata_populate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coredata_populate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +112,44 @@
 		8A636A87240E56FB002734E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A636A8A240E56FB002734E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A636A8C240E56FB002734E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A636A98240E61EB002734E6 /* VocabManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabManager.swift; sourceTree = "<group>"; };
+		8A65B332241A1F13009CB3DE /* HSK6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK6.csv; sourceTree = "<group>"; };
+		8A65B333241A1F13009CB3DE /* HSK1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK1.csv; sourceTree = "<group>"; };
+		8A65B334241A1F13009CB3DE /* HSK4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK4.csv; sourceTree = "<group>"; };
+		8A65B335241A1F13009CB3DE /* HSK3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK3.csv; sourceTree = "<group>"; };
+		8A65B336241A1F13009CB3DE /* HSK2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK2.csv; sourceTree = "<group>"; };
+		8A65B337241A1F13009CB3DE /* HSK5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK5.csv; sourceTree = "<group>"; };
+		8A65B356241A25CD009CB3DE /* CardEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8A65B357241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A65B358241A25CD009CB3DE /* ListEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8A65B359241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A65B362241A3755009CB3DE /* coredata_populate.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coredata_populate.sqlite-wal"; sourceTree = "<group>"; };
+		8A65B363241A3756009CB3DE /* coredata_populate.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = coredata_populate.sqlite; sourceTree = "<group>"; };
+		8A65B364241A3756009CB3DE /* coredata_populate.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coredata_populate.sqlite-shm"; sourceTree = "<group>"; };
+		8A97AB512410FAFD00232343 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		8ABF9412241485F900028385 /* iwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABF9415241485F900028385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8ABF9417241485FB00028385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ABF9419241485FB00028385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ABF941E241485FB00028385 /* iwatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iwatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABF9425241485FB00028385 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		8ABF9427241485FB00028385 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8ABF9429241485FC00028385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ABF942C241485FC00028385 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8ABF942E241485FC00028385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEA2C2A2417A5D30044EBE8 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		8AEA2C2D2417A5E60044EBE8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8A636A75240E56F9002734E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABF941B241485FB00028385 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				8A636A7A240E56F9002734E6 /* coredata_populate */,
+				8ABF9413241485F900028385 /* iwatch */,
+				8ABF9422241485FB00028385 /* iwatch Extension */,
 				8A636A79240E56F9002734E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				8A636A78240E56F9002734E6 /* coredata_populate.app */,
+				8ABF9412241485F900028385 /* iwatch.app */,
+				8ABF941E241485FB00028385 /* iwatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +182,30 @@
 		8A636A7A240E56F9002734E6 /* coredata_populate */ = {
 			isa = PBXGroup;
 			children = (
+				8A97AB512410FAFD00232343 /* CoreDataStack.swift */,
+				8A636A98240E61EB002734E6 /* VocabManager.swift */,
 				8A636A7B240E56F9002734E6 /* AppDelegate.swift */,
 				8A636A7D240E56F9002734E6 /* SceneDelegate.swift */,
 				8A636A82240E56F9002734E6 /* ContentView.swift */,
+				8AEA2C2A2417A5D30044EBE8 /* ListView.swift */,
+				8AEA2C2D2417A5E60044EBE8 /* CardView.swift */,
 				8A636A84240E56FB002734E6 /* Assets.xcassets */,
 				8A636A89240E56FB002734E6 /* LaunchScreen.storyboard */,
 				8A636A8C240E56FB002734E6 /* Info.plist */,
 				8A636A7F240E56F9002734E6 /* coredata_populate.xcdatamodeld */,
+				8A65B356241A25CD009CB3DE /* CardEntity+CoreDataClass.swift */,
+				8A65B357241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift */,
+				8A65B358241A25CD009CB3DE /* ListEntity+CoreDataClass.swift */,
+				8A65B359241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift */,
+				8A65B333241A1F13009CB3DE /* HSK1.csv */,
+				8A65B336241A1F13009CB3DE /* HSK2.csv */,
+				8A65B335241A1F13009CB3DE /* HSK3.csv */,
+				8A65B334241A1F13009CB3DE /* HSK4.csv */,
+				8A65B337241A1F13009CB3DE /* HSK5.csv */,
+				8A65B332241A1F13009CB3DE /* HSK6.csv */,
+				8A65B363241A3756009CB3DE /* coredata_populate.sqlite */,
+				8A65B364241A3756009CB3DE /* coredata_populate.sqlite-shm */,
+				8A65B362241A3755009CB3DE /* coredata_populate.sqlite-wal */,
 				8A636A86240E56FB002734E6 /* Preview Content */,
 			);
 			path = coredata_populate;
@@ -74,6 +215,36 @@
 			isa = PBXGroup;
 			children = (
 				8A636A87240E56FB002734E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8ABF9413241485F900028385 /* iwatch */ = {
+			isa = PBXGroup;
+			children = (
+				8ABF9414241485F900028385 /* Interface.storyboard */,
+				8ABF9417241485FB00028385 /* Assets.xcassets */,
+				8ABF9419241485FB00028385 /* Info.plist */,
+			);
+			path = iwatch;
+			sourceTree = "<group>";
+		};
+		8ABF9422241485FB00028385 /* iwatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8ABF9425241485FB00028385 /* HostingController.swift */,
+				8ABF9427241485FB00028385 /* ExtensionDelegate.swift */,
+				8ABF9429241485FC00028385 /* Assets.xcassets */,
+				8ABF942E241485FC00028385 /* Info.plist */,
+				8ABF942B241485FC00028385 /* Preview Content */,
+			);
+			path = "iwatch Extension";
+			sourceTree = "<group>";
+		};
+		8ABF942B241485FC00028385 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8ABF942C241485FC00028385 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,15 +259,51 @@
 				8A636A74240E56F9002734E6 /* Sources */,
 				8A636A75240E56F9002734E6 /* Frameworks */,
 				8A636A76240E56F9002734E6 /* Resources */,
+				8ABF9432241485FC00028385 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8ABF9430241485FC00028385 /* PBXTargetDependency */,
 			);
 			name = coredata_populate;
 			productName = coredata_populate;
 			productReference = 8A636A78240E56F9002734E6 /* coredata_populate.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8ABF9411241485F900028385 /* iwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABF9439241485FC00028385 /* Build configuration list for PBXNativeTarget "iwatch" */;
+			buildPhases = (
+				8ABF9410241485F900028385 /* Resources */,
+				8ABF9435241485FC00028385 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ABF9421241485FB00028385 /* PBXTargetDependency */,
+			);
+			name = iwatch;
+			productName = iwatch;
+			productReference = 8ABF9412241485F900028385 /* iwatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8ABF941D241485FB00028385 /* iwatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABF9438241485FC00028385 /* Build configuration list for PBXNativeTarget "iwatch Extension" */;
+			buildPhases = (
+				8ABF941A241485FB00028385 /* Sources */,
+				8ABF941B241485FB00028385 /* Frameworks */,
+				8ABF941C241485FB00028385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iwatch Extension";
+			productName = "iwatch Extension";
+			productReference = 8ABF941E241485FB00028385 /* iwatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +316,12 @@
 				ORGANIZATIONNAME = "Alexey Smirnov";
 				TargetAttributes = {
 					8A636A77240E56F9002734E6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8ABF9411241485F900028385 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8ABF941D241485FB00028385 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -127,6 +340,8 @@
 			projectRoot = "";
 			targets = (
 				8A636A77240E56F9002734E6 /* coredata_populate */,
+				8ABF9411241485F900028385 /* iwatch */,
+				8ABF941D241485FB00028385 /* iwatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -136,9 +351,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A65B33A241A1F13009CB3DE /* HSK1.csv in Resources */,
+				8A65B33E241A1F13009CB3DE /* HSK3.csv in Resources */,
+				8A65B340241A1F13009CB3DE /* HSK2.csv in Resources */,
+				8A65B338241A1F13009CB3DE /* HSK6.csv in Resources */,
 				8A636A8B240E56FB002734E6 /* LaunchScreen.storyboard in Resources */,
+				8A65B369241A3756009CB3DE /* coredata_populate.sqlite-shm in Resources */,
 				8A636A88240E56FB002734E6 /* Preview Assets.xcassets in Resources */,
+				8A65B33C241A1F13009CB3DE /* HSK4.csv in Resources */,
+				8A65B365241A3756009CB3DE /* coredata_populate.sqlite-wal in Resources */,
+				8A65B342241A1F13009CB3DE /* HSK5.csv in Resources */,
+				8A65B367241A3756009CB3DE /* coredata_populate.sqlite in Resources */,
 				8A636A85240E56FB002734E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABF9410241485F900028385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABF9418241485FB00028385 /* Assets.xcassets in Resources */,
+				8ABF9416241485F900028385 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABF941C241485FB00028385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A65B339241A1F13009CB3DE /* HSK6.csv in Resources */,
+				8ABF942D241485FC00028385 /* Preview Assets.xcassets in Resources */,
+				8A65B36A241A3756009CB3DE /* coredata_populate.sqlite-shm in Resources */,
+				8A65B343241A1F13009CB3DE /* HSK5.csv in Resources */,
+				8A65B33B241A1F13009CB3DE /* HSK1.csv in Resources */,
+				8A65B368241A3756009CB3DE /* coredata_populate.sqlite in Resources */,
+				8A65B366241A3756009CB3DE /* coredata_populate.sqlite-wal in Resources */,
+				8A65B33D241A1F13009CB3DE /* HSK4.csv in Resources */,
+				8A65B33F241A1F13009CB3DE /* HSK3.csv in Resources */,
+				8A65B341241A1F13009CB3DE /* HSK2.csv in Resources */,
+				8ABF942A241485FC00028385 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +400,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A65B35C241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift in Sources */,
+				8A65B35E241A25CD009CB3DE /* ListEntity+CoreDataClass.swift in Sources */,
+				8A636A99240E61EB002734E6 /* VocabManager.swift in Sources */,
 				8A636A81240E56F9002734E6 /* coredata_populate.xcdatamodeld in Sources */,
 				8A636A7C240E56F9002734E6 /* AppDelegate.swift in Sources */,
+				8AEA2C2B2417A5D30044EBE8 /* ListView.swift in Sources */,
+				8A65B360241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift in Sources */,
 				8A636A83240E56F9002734E6 /* ContentView.swift in Sources */,
 				8A636A7E240E56F9002734E6 /* SceneDelegate.swift in Sources */,
+				8A65B35A241A25CD009CB3DE /* CardEntity+CoreDataClass.swift in Sources */,
+				8AEA2C2E2417A5E60044EBE8 /* CardView.swift in Sources */,
+				8A97AB522410FAFD00232343 /* CoreDataStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABF941A241485FB00028385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A65B35D241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift in Sources */,
+				8A65B35F241A25CD009CB3DE /* ListEntity+CoreDataClass.swift in Sources */,
+				8ABF9426241485FB00028385 /* HostingController.swift in Sources */,
+				8ABF9428241485FB00028385 /* ExtensionDelegate.swift in Sources */,
+				8ABF94402414E65400028385 /* ContentView.swift in Sources */,
+				8AEA2C2C2417A5D30044EBE8 /* ListView.swift in Sources */,
+				8A65B361241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift in Sources */,
+				8ABF943F2414E40C00028385 /* CoreDataStack.swift in Sources */,
+				8ABF943B2414E32A00028385 /* coredata_populate.xcdatamodeld in Sources */,
+				8A65B35B241A25CD009CB3DE /* CardEntity+CoreDataClass.swift in Sources */,
+				8AEA2C2F2417A5E60044EBE8 /* CardView.swift in Sources */,
+				8ABF943A2414E30D00028385 /* VocabManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ABF9421241485FB00028385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ABF941D241485FB00028385 /* iwatch Extension */;
+			targetProxy = 8ABF9420241485FB00028385 /* PBXContainerItemProxy */;
+		};
+		8ABF9430241485FC00028385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ABF9411241485F900028385 /* iwatch */;
+			targetProxy = 8ABF942F241485FC00028385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8A636A89240E56FB002734E6 /* LaunchScreen.storyboard */ = {
@@ -165,6 +456,14 @@
 				8A636A8A240E56FB002734E6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8ABF9414241485F900028385 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABF9415241485F900028385 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,7 +589,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"coredata_populate/Preview Content\"";
-				DEVELOPMENT_TEAM = N4EH859FUC;
+				DEVELOPMENT_TEAM = 3NQ697ND22;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = coredata_populate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +609,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"coredata_populate/Preview Content\"";
-				DEVELOPMENT_TEAM = N4EH859FUC;
+				DEVELOPMENT_TEAM = 3NQ697ND22;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = coredata_populate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +620,92 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8ABF9433241485FC00028385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NQ697ND22;
+				IBSC_MODULE = iwatch_Extension;
+				INFOPLIST_FILE = iwatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlc.coredata-populate.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		8ABF9434241485FC00028385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NQ697ND22;
+				IBSC_MODULE = iwatch_Extension;
+				INFOPLIST_FILE = iwatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlc.coredata-populate.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		8ABF9436241485FC00028385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iwatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NQ697ND22;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iwatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlc.coredata-populate.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		8ABF9437241485FC00028385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iwatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NQ697ND22;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iwatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rlc.coredata-populate.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
 			};
 			name = Release;
 		};
@@ -341,6 +726,24 @@
 			buildConfigurations = (
 				8A636A90240E56FB002734E6 /* Debug */,
 				8A636A91240E56FB002734E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABF9438241485FC00028385 /* Build configuration list for PBXNativeTarget "iwatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABF9436241485FC00028385 /* Debug */,
+				8ABF9437241485FC00028385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABF9439241485FC00028385 /* Build configuration list for PBXNativeTarget "iwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABF9433241485FC00028385 /* Debug */,
+				8ABF9434241485FC00028385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
