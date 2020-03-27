@@ -27,14 +27,6 @@
 		8A65B341241A1F13009CB3DE /* HSK2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B336241A1F13009CB3DE /* HSK2.csv */; };
 		8A65B342241A1F13009CB3DE /* HSK5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B337241A1F13009CB3DE /* HSK5.csv */; };
 		8A65B343241A1F13009CB3DE /* HSK5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B337241A1F13009CB3DE /* HSK5.csv */; };
-		8A65B35A241A25CD009CB3DE /* CardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B356241A25CD009CB3DE /* CardEntity+CoreDataClass.swift */; };
-		8A65B35B241A25CD009CB3DE /* CardEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B356241A25CD009CB3DE /* CardEntity+CoreDataClass.swift */; };
-		8A65B35C241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B357241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift */; };
-		8A65B35D241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B357241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift */; };
-		8A65B35E241A25CD009CB3DE /* ListEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B358241A25CD009CB3DE /* ListEntity+CoreDataClass.swift */; };
-		8A65B35F241A25CD009CB3DE /* ListEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B358241A25CD009CB3DE /* ListEntity+CoreDataClass.swift */; };
-		8A65B360241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B359241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift */; };
-		8A65B361241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65B359241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift */; };
 		8A65B365241A3756009CB3DE /* coredata_populate.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B362241A3755009CB3DE /* coredata_populate.sqlite-wal */; };
 		8A65B366241A3756009CB3DE /* coredata_populate.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B362241A3755009CB3DE /* coredata_populate.sqlite-wal */; };
 		8A65B367241A3756009CB3DE /* coredata_populate.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B363241A3756009CB3DE /* coredata_populate.sqlite */; };
@@ -119,10 +111,6 @@
 		8A65B335241A1F13009CB3DE /* HSK3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK3.csv; sourceTree = "<group>"; };
 		8A65B336241A1F13009CB3DE /* HSK2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK2.csv; sourceTree = "<group>"; };
 		8A65B337241A1F13009CB3DE /* HSK5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSK5.csv; sourceTree = "<group>"; };
-		8A65B356241A25CD009CB3DE /* CardEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8A65B357241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		8A65B358241A25CD009CB3DE /* ListEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8A65B359241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8A65B362241A3755009CB3DE /* coredata_populate.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coredata_populate.sqlite-wal"; sourceTree = "<group>"; };
 		8A65B363241A3756009CB3DE /* coredata_populate.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = coredata_populate.sqlite; sourceTree = "<group>"; };
 		8A65B364241A3756009CB3DE /* coredata_populate.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coredata_populate.sqlite-shm"; sourceTree = "<group>"; };
@@ -193,10 +181,6 @@
 				8A636A89240E56FB002734E6 /* LaunchScreen.storyboard */,
 				8A636A8C240E56FB002734E6 /* Info.plist */,
 				8A636A7F240E56F9002734E6 /* coredata_populate.xcdatamodeld */,
-				8A65B356241A25CD009CB3DE /* CardEntity+CoreDataClass.swift */,
-				8A65B357241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift */,
-				8A65B358241A25CD009CB3DE /* ListEntity+CoreDataClass.swift */,
-				8A65B359241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift */,
 				8A65B333241A1F13009CB3DE /* HSK1.csv */,
 				8A65B336241A1F13009CB3DE /* HSK2.csv */,
 				8A65B335241A1F13009CB3DE /* HSK3.csv */,
@@ -400,16 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A65B35C241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift in Sources */,
-				8A65B35E241A25CD009CB3DE /* ListEntity+CoreDataClass.swift in Sources */,
 				8A636A99240E61EB002734E6 /* VocabManager.swift in Sources */,
 				8A636A81240E56F9002734E6 /* coredata_populate.xcdatamodeld in Sources */,
 				8A636A7C240E56F9002734E6 /* AppDelegate.swift in Sources */,
 				8AEA2C2B2417A5D30044EBE8 /* ListView.swift in Sources */,
-				8A65B360241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift in Sources */,
 				8A636A83240E56F9002734E6 /* ContentView.swift in Sources */,
 				8A636A7E240E56F9002734E6 /* SceneDelegate.swift in Sources */,
-				8A65B35A241A25CD009CB3DE /* CardEntity+CoreDataClass.swift in Sources */,
 				8AEA2C2E2417A5E60044EBE8 /* CardView.swift in Sources */,
 				8A97AB522410FAFD00232343 /* CoreDataStack.swift in Sources */,
 			);
@@ -419,16 +399,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A65B35D241A25CD009CB3DE /* CardEntity+CoreDataProperties.swift in Sources */,
-				8A65B35F241A25CD009CB3DE /* ListEntity+CoreDataClass.swift in Sources */,
 				8ABF9426241485FB00028385 /* HostingController.swift in Sources */,
 				8ABF9428241485FB00028385 /* ExtensionDelegate.swift in Sources */,
 				8ABF94402414E65400028385 /* ContentView.swift in Sources */,
 				8AEA2C2C2417A5D30044EBE8 /* ListView.swift in Sources */,
-				8A65B361241A25CD009CB3DE /* ListEntity+CoreDataProperties.swift in Sources */,
 				8ABF943F2414E40C00028385 /* CoreDataStack.swift in Sources */,
 				8ABF943B2414E32A00028385 /* coredata_populate.xcdatamodeld in Sources */,
-				8A65B35B241A25CD009CB3DE /* CardEntity+CoreDataClass.swift in Sources */,
 				8AEA2C2F2417A5E60044EBE8 /* CardView.swift in Sources */,
 				8ABF943A2414E30D00028385 /* VocabManager.swift in Sources */,
 			);

@@ -11,8 +11,9 @@ import CoreData
 class CoreDataStack {
     static let shared = CoreDataStack()
     
+    let appSupportDirectory = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+
     func initDB() {
-      let appSupportDirectory = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
         let url = appSupportDirectory.appendingPathComponent("coredata_populate.sqlite")
         
         if !FileManager.default.fileExists(atPath: url.path) {
@@ -41,6 +42,8 @@ class CoreDataStack {
     }
 
     lazy var persistentContainer: NSPersistentContainer = {
+        // print(appSupportDirectory)
+        
         let container = NSPersistentContainer(name: "coredata_populate")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {

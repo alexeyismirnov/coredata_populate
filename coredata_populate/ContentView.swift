@@ -36,6 +36,7 @@ struct ContentView: View {
                         card1.wordTrad = card.wordTrad
                         card1.pinyin = card.pinyin
                         card1.translation = card.translation
+                        card1.starred = false
                         card1.list = list1
                         
                         try! self.context.save()
