@@ -33,6 +33,9 @@
 		8A65B368241A3756009CB3DE /* coredata_populate.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B363241A3756009CB3DE /* coredata_populate.sqlite */; };
 		8A65B369241A3756009CB3DE /* coredata_populate.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B364241A3756009CB3DE /* coredata_populate.sqlite-shm */; };
 		8A65B36A241A3756009CB3DE /* coredata_populate.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 8A65B364241A3756009CB3DE /* coredata_populate.sqlite-shm */; };
+		8A66287A2440367100250A8D /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8A6628792440367100250A8D /* dictionary.txt */; };
+		8A66287C244038D800250A8D /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66287B244038D800250A8D /* Dictionary.swift */; };
+		8A66287D24403EF900250A8D /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66287B244038D800250A8D /* Dictionary.swift */; };
 		8A97AB522410FAFD00232343 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97AB512410FAFD00232343 /* CoreDataStack.swift */; };
 		8ABF9416241485F900028385 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABF9414241485F900028385 /* Interface.storyboard */; };
 		8ABF9418241485FB00028385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABF9417241485FB00028385 /* Assets.xcassets */; };
@@ -114,6 +117,8 @@
 		8A65B362241A3755009CB3DE /* coredata_populate.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coredata_populate.sqlite-wal"; sourceTree = "<group>"; };
 		8A65B363241A3756009CB3DE /* coredata_populate.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = coredata_populate.sqlite; sourceTree = "<group>"; };
 		8A65B364241A3756009CB3DE /* coredata_populate.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coredata_populate.sqlite-shm"; sourceTree = "<group>"; };
+		8A6628792440367100250A8D /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+		8A66287B244038D800250A8D /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		8A97AB512410FAFD00232343 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		8ABF9412241485F900028385 /* iwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABF9415241485F900028385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -177,6 +182,8 @@
 				8A636A82240E56F9002734E6 /* ContentView.swift */,
 				8AEA2C2A2417A5D30044EBE8 /* ListView.swift */,
 				8AEA2C2D2417A5E60044EBE8 /* CardView.swift */,
+				8A66287B244038D800250A8D /* Dictionary.swift */,
+				8A6628792440367100250A8D /* dictionary.txt */,
 				8A636A84240E56FB002734E6 /* Assets.xcassets */,
 				8A636A89240E56FB002734E6 /* LaunchScreen.storyboard */,
 				8A636A8C240E56FB002734E6 /* Info.plist */,
@@ -335,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A66287A2440367100250A8D /* dictionary.txt in Resources */,
 				8A65B33A241A1F13009CB3DE /* HSK1.csv in Resources */,
 				8A65B33E241A1F13009CB3DE /* HSK3.csv in Resources */,
 				8A65B340241A1F13009CB3DE /* HSK2.csv in Resources */,
@@ -389,6 +397,7 @@
 				8A636A7C240E56F9002734E6 /* AppDelegate.swift in Sources */,
 				8AEA2C2B2417A5D30044EBE8 /* ListView.swift in Sources */,
 				8A636A83240E56F9002734E6 /* ContentView.swift in Sources */,
+				8A66287C244038D800250A8D /* Dictionary.swift in Sources */,
 				8A636A7E240E56F9002734E6 /* SceneDelegate.swift in Sources */,
 				8AEA2C2E2417A5E60044EBE8 /* CardView.swift in Sources */,
 				8A97AB522410FAFD00232343 /* CoreDataStack.swift in Sources */,
@@ -404,6 +413,7 @@
 				8ABF94402414E65400028385 /* ContentView.swift in Sources */,
 				8AEA2C2C2417A5D30044EBE8 /* ListView.swift in Sources */,
 				8ABF943F2414E40C00028385 /* CoreDataStack.swift in Sources */,
+				8A66287D24403EF900250A8D /* Dictionary.swift in Sources */,
 				8ABF943B2414E32A00028385 /* coredata_populate.xcdatamodeld in Sources */,
 				8AEA2C2F2417A5E60044EBE8 /* CardView.swift in Sources */,
 				8ABF943A2414E30D00028385 /* VocabManager.swift in Sources */,

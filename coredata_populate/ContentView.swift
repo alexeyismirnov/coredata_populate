@@ -36,20 +36,48 @@ struct ContentView: View {
                         card1.wordTrad = card.wordTrad
                         card1.pinyin = card.pinyin
                         card1.translation = card.translation
-                        card1.starred = false
                         card1.list = list1
                         
                         try! self.context.save()
                     }
                 }
                 
-                
             }) {
                 HStack {
                     Image(systemName: "arrow.right.circle")
-                    Text("Populate")
+                    Text("Populate HSK")
                 }
             }.padding(10)
+            
+            Button(action: {
+                let decoder = JSONDecoder()
+                let content = arrayFromContentsOfFileWithName(fileName: "dictionary")!
+                
+                for row in content {
+                    do {
+                        if row.count == 0 {
+                            break
+                        }
+                        let result = try decoder.decode(DictionaryRow.self, from: row.data(using: .utf8)!)
+                        
+                        let dict = DictionaryEntity(context: self.context)
+                        dict.character = result.character
+                        dict.definition = result.definition ?? ""
+                        try! self.context.save()
+
+                        print(result)
+                        
+                    } catch {
+                        fatalError("Couldn't parse: \(error)")
+                    }
+                    
+                }
+                }) {
+                    HStack {
+                        Image(systemName: "arrow.right.circle")
+                        Text("Populate dict")
+                    }
+                }.padding(10)
             
             NavigationLink(destination: ListView()) {
                 HStack {

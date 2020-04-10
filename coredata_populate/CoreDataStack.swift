@@ -42,7 +42,7 @@ class CoreDataStack {
     }
 
     lazy var persistentContainer: NSPersistentContainer = {
-        // print(appSupportDirectory)
+        print(appSupportDirectory)
         
         let container = NSPersistentContainer(name: "coredata_populate")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
